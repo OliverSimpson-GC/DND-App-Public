@@ -1,0 +1,25 @@
+﻿@page
+@using DndApp.Pages.Subpages
+@model SSModel
+@{
+    ViewData["Title"] = "Sunless Sea";
+}
+
+
+<div>
+    
+
+    <div class="text-center">
+        <h1 class="display-4" style="color: white">Sunless Sea</h1>
+    </div>
+
+    <div class="container; blockContainer" style="background: white">
+        <a class="nav-link" href="~/Docs/SS/SS Rules.pdf" download="SS Rules.pdf">Full Rules</a>
+        <a class="nav-link" href="~/Docs/SS/SS Peoples.pdf" download="SS Peoples.pdf">Peoples of the Zee</a>
+        <a class="nav-link" href="~/Docs/SS/SS Classes.pdf" download="SS Classes.pdf">Specialists</a>
+        <a class="nav-link" href="~/Docs/SS/SS Ships.pdf" download="SS Ships.pdf">Ships</a>
+
+        <a class="nav-link" asp-page="/Index">Back home</a>
+    </div>
+</div>
+
